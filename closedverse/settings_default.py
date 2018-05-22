@@ -155,8 +155,16 @@ recaptcha_priv = None
 nnid_forbiddens = BASE_DIR + '/forbidden.json'
 
 # Memo title and message on communities list
-memo_title = "Closedverse demo"
-memo_msg = "Heyyyy!"
+memo_title = "What is Oasis? Or Oasisverse?! Which one is it?!?"
+memo_msg = "It's like Closedverse, but with good-ish democratic ideas by Pip, hosting by PF2M, and done right this time. Also, it's Oasis"
+memo_title = "Will Oasis Hack me?!?"
+memo_msg = "No, Oasis will not hack you, that wouldn't be nice."
+memo_title = "Will Me Hack Oasis?!?"
+memo_msg = "You will NOT hack Oasis. That would also be mean."
+memo_title = "Can I become Moderator, I'd love to help?!?!"
+memo_msg = "Oasis is different. You have to be elected by your fellow users to get the power to enforce the rules. Also, please do not send me photos of your legs. That is bad. Do not."
+memo_title = "Is this open source?!?"
+memo_msg = Yeah! https://github.com/Pikacraft64/oasis, but reminder, the code is a modification of Closedverse's
 
 # Client key to use for iphub.email, because we're using that
 # None for no IP checking (recommended since this is so slow)
