@@ -143,7 +143,7 @@ class User(models.Model):
 	# LEVEL: 0-1 is default, everything else is just levels
 	level = models.SmallIntegerField(default=0)
 	# ROLE: This doesn't have anything
-	role = models.SmallIntegerField(default=0, choices=((0, 'normal'), (1, 'bot'), (2, 'administrator'), (3, 'moderator'), (4, 'openverse'), (5, 'donator'), (6, 'tester'), (7, 'urapp'), (8, 'developer'), ))
+	role = models.SmallIntegerField(default=0, choices=((0, 'normal'), (1, 'bot'), (2, 'administrator'), (3, 'moderator'), (4, 'openverse'), (5, 'donator'), (6, 'tester'), (7, 'urapp'), (8, 'developer'), (9, 'pipinstalldjango') (10, 'staff') ))
 	addr = models.CharField(max_length=64, null=True, blank=True)
 	
 	# Things that don't have to do with auth lol
@@ -239,6 +239,8 @@ class User(models.Model):
 			6: 'tester',
 			7: 'urapp',
 			8: 'developer',
+			9: 'pipinstalldjango'
+			10: 'staff'
 			}.get(self.role, '')
 			second = {
 			1: "Bot",
@@ -249,6 +251,8 @@ class User(models.Model):
 			6: "Tester",
 			7: "cave story is okay",
 			8: "Friendship ended with PHP / Now PYTHON is my best friend",
+			9: "Pip install Django"
+			10: "Staff"
 			}.get(self.role, '')
 			if first:
 				first = 'official ' + first
