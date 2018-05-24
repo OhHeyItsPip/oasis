@@ -1,6 +1,6 @@
-# Closedverse
+# Oasis
 This isn't finished yet.
-Meant to be a random out-of-the-blue parody of Openverse that's supposed to be unironically better than Openverse, before Openverse even has hosting.
+Rehost of Closedverse with some new features that'll be made.
 
 # Requirements
   * Python 3.6.2?
