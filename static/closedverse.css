@@ -1308,7 +1308,16 @@ content: "F";
 .icon-container.artcon:after {
   content: url("/s/img/artcon.png);
 }
-.icon
+.icon-container.contest:after {
+  content: url("/s/img/contest.png);
+}
+.icon-container.gamecon:after {
+  contest: url("/s/img/gamecon.png);
+}
+.icon-container.mp:after
+  contest: url("/s/img/mp.png);
+}
+	 
 
 .multi-timeline-post-list .post .icon-container.offline:before,
 .multi-timeline-post-list .post .icon-container.online:before,
