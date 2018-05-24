@@ -143,7 +143,7 @@ class User(models.Model):
 	# LEVEL: 0-1 is default, everything else is just levels
 	level = models.SmallIntegerField(default=0)
 	# ROLE: This doesn't have anything
-	role = models.SmallIntegerField(default=0, choices=((0, 'normal'), (1, 'bot'), (2, 'administrator'), (3, 'moderator'), (4, 'openverse'), (5, 'donator'), (6, 'tester'), (7, 'urapp'), (8, 'developer'), (9, 'pipinstalldjango') (10, 'staff') ))
+	role = models.SmallIntegerField(default=0, choices=((0, 'normal'), (1, 'bot'), (2, 'administrator'), (3, 'moderator'), (4, 'openverse'), (5, 'donator'), (6, 'tester'), (7, 'urapp'), (8, 'developer'), (9, 'pipinstalldjango') (10, 'staff') (11, 'Kanna' )( 12, 'realshit' ) (13, 'artcon') (14, 'contest') (15, 'gamecon') (16, 'mp') )
 	addr = models.CharField(max_length=64, null=True, blank=True)
 	
 	# Things that don't have to do with auth lol
@@ -241,6 +241,12 @@ class User(models.Model):
 			8: 'developer',
 			9: 'pipinstalldjango'
 			10: 'staff'
+			11: 'Kanna'
+			12: 'Verified'
+			13: 'artcon'
+			14: 'contest'
+			15: 'gamecom'
+			16: 'mp'
 			}.get(self.role, '')
 			second = {
 			1: "Bot",
@@ -253,6 +259,13 @@ class User(models.Model):
 			8: "Friendship ended with PHP / Now PYTHON is my best friend",
 			9: "Pip install Django"
 			10: "Staff"
+			11: "Kanna Kamui from Miss Kobayashi's Dragon Maid aka Best Girl"
+			12: "Verified"
+			13: "Art Contest Winner"
+			14: "Contest Winner"
+			15: "Game Contest Winner"
+			16: "Mario's Princess"
+
 			}.get(self.role, '')
 			if first:
 				first = 'official ' + first
