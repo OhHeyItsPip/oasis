@@ -1299,6 +1299,16 @@ content: "F";
 .icon-container.verified:after {
   content: url("/s/img/verified.png");
 }
+.icon-container.staff:after {
+  content: url("/s/img/special.png);
+}
+.icon-container.pipinstalldjango:after {
+  content: url("/s/img/pipinstalldjagno.png);
+}
+.icon-container.artcon:after {
+  content: url("/s/img/artcon.png);
+}
+.icon
 
 .multi-timeline-post-list .post .icon-container.offline:before,
 .multi-timeline-post-list .post .icon-container.online:before,
