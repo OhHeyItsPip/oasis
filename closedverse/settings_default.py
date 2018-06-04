@@ -164,7 +164,9 @@ memo_msg = "You will NOT hack Oasis. That would also be mean."
 memo_title = "Can I become Moderator, I'd love to help?!?!"
 memo_msg = "Oasis is different. You have to be elected by your fellow users to get the power to enforce the rules. Also, please do not send me photos of your legs. That is bad. Do not."
 memo_title = "Is this open source?!?"
-memo_msg = Yeah! https://github.com/Pikacraft64/oasis, but reminder, the code is a modification of Closedverse's
+memo_msg = "Yeah! https://github.com/Pikacraft64/oasis, but reminder, the code is a modification of Closedverse's"
+memo_title = "Any ways to contact you?"
+memo_msg = "Yeah! We have a contact page, and a discord sever! https://discord.gg/62Vnez2. Ask someone if the link doesn't work."
 
 # Client key to use for iphub.email, because we're using that
 # None for no IP checking (recommended since this is so slow)
