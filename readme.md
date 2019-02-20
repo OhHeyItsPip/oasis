@@ -1,6 +1,5 @@
 # Oasis
-This isn't finished yet.
-Rehost of Closedverse with some new features that'll be made.
+look up closedverse on githubkthanksbye
 
 # Requirements
   * Python 3.6.2?
