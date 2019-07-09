@@ -1,5 +1,12 @@
 # Oasis
-look up closedverse on githubkthanksbye
+
+What WAS Oasis?!?!
+
+Oasis WAS a rehost of closedverse, with a much better mod team, nicer CSS, and, a better mod team? I always wanted to add new feautures, but I never got around to it, mostly because I was busy working on Indigo.
+
+Closedverse has a github too! Which makes this, really, really redundant! https://github.com/ariankordi/closedverse
+
+
 
 # Requirements
   * Python 3.6.2?
@@ -16,11 +23,15 @@ look up closedverse on githubkthanksbye
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
 [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
+
 # Usage
+
 It's a standard Django app.
 
 Make the config, migrate, then either `runserver` or run it in uWSGI.
 If you don't know how to set up a Django app, look it up please.
+
+But please oh please, do not make this public.
 
 # Copyright
 Copyright 2017 Arian Kordi, all rights reserved to their respective owners. (Nintendo, Hatena Co Ltd.)
