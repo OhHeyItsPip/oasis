@@ -2,7 +2,7 @@
 
 What WAS Oasis?!?!
 
-Oasis WAS a rehost of closedverse, with a much better mod team, nicer CSS, and, a better mod team? I always wanted to add new feautures, but I never got around to it, mostly because I was busy working on Indigo.
+Oasis WAS a rehost of closedverse, with a much better mod team, nicer CSS, and, a better mod team? I always wanted to add new features, but I never got around to it, mostly because I was busy working on getting Indigo ready for launch.
 
 Closedverse has a github too! Which makes this, really, really redundant! https://github.com/ariankordi/closedverse
 
