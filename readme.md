@@ -35,3 +35,5 @@ But please oh please, do not make this public.
 
 # Copyright
 Copyright 2017 Arian Kordi, all rights reserved to their respective owners. (Nintendo, Hatena Co Ltd.)
+
+I added the Mozilla Public License, so this code can be used but you cannot use the likeness such as the Oasis name.
