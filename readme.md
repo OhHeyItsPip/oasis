@@ -6,6 +6,8 @@ Oasis WAS a rehost of closedverse, with a much better mod team, nicer CSS, and, 
 
 Closedverse has a github too! Which makes this, really, really redundant! https://github.com/ariankordi/closedverse
 
+only reason this is up is so I can add a license that ensures no one tries using Oasis' name. please stop, its been 2 years.
+
 
 
 # Requirements
