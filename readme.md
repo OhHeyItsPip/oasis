@@ -66,7 +66,7 @@ Get everything else you need.
 
 5.
 Clone the clone!
-`git clone https://github.com/Mistake35/Cedar-Django`
+`git clone https://github.com/grayhax/oasisfixed`
 
 5.5 (recommended).
 You should use FileZilla or some other SFTP client to make things easier in the future.
@@ -135,7 +135,7 @@ After=network.target
 
 [Service]
 User=root
-WorkingDirectory=/root/Cedar-Django
+WorkingDirectory=/root/oasisfixed
 ExecStart=/usr/bin/python3 manage.py runserver IP-HERE:80
 
 [Install]
