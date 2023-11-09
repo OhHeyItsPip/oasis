@@ -17,7 +17,7 @@ only reason this is up is so I can add a license that ensures no one tries using
   * lxml
   * passlib
   * bcrypt
-  * mysqlclient (required)
+  * mysqlclient (optional)
   * pillow
   * imghdr?
   * markdown
