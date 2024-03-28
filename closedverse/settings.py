@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 PROD = False
 
@@ -27,7 +27,7 @@ PROD = False
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = ''
 
-ALLOWED_HOSTS = [
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost'
 ]
 
 
@@ -81,13 +81,8 @@ WSGI_APPLICATION = 'closedverse.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql', 
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3306',
-		'OPTIONS': {'charset': 'utf8mb4'},
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'sql.sqlite3'),
     }
 }
 
